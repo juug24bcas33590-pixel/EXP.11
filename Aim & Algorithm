@@ -1,0 +1,15 @@
+AIM
+To display web content (web pages, HTML, CSS, JavaScript) inside a mobile app without opening a browser.
+
+ALGORITHM
+1: Start
+2: Add WebView in layout
+3: Initialize WebView in activity
+4: Enable required settings (JavaScript, etc.)
+5: Provide URL or HTML content
+6: Load content using loadUrl()
+7: WebView sends request to server
+8: Server responds with web data
+9: WebView renders content using Chromium engine
+10: Display webpage inside app
+11: Stop
